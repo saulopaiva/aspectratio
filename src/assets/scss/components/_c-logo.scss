@@ -1,0 +1,14 @@
+$component-name: "c-logo";
+
+.#{$component-name} {
+  display: inline-block;
+  filter: brightness(0) invert(1);
+  position: relative;
+  z-index: 3;
+
+  &-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+}

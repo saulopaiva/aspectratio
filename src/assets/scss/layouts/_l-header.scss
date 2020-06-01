@@ -1,0 +1,34 @@
+$layout-name: "l-header";
+
+.#{$layout-name} {
+  position: relative;
+  margin-bottom: 30px;
+
+  &::before {
+    background-color: #4b9cb6;
+    box-shadow: -6px 4px 10px #333;
+    content: '';
+    height: 180px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: left;
+    transform: skewY(-4deg);
+    width: 100%;
+    z-index: 2;
+  }
+
+  &::after {
+    z-index: 1;
+    background-color: #367386;
+    box-shadow: 6px 4px 10px #333;
+    content: '';
+    height: 180px;
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: right;
+    transform: skewY(5deg);
+    width: 100%;
+  }
+}
