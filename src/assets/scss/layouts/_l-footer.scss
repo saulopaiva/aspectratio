@@ -1,4 +1,9 @@
 $layout-name: "l-footer";
 
 .#{$layout-name} {
+  background-color: #367386;
+  box-shadow: 6px 4px 10px #333;
+  color: #fff;
+  margin: auto 0 0 0;
+  padding: 30px 0;
 }

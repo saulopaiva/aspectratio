@@ -64,6 +64,8 @@
 @include motion-ui-animations;
 
 // Project
+@import 'base/elements';
 @import 'layouts/l-header';
 @import 'layouts/l-footer';
+@import 'layouts/l-main';
 @import 'components/c-logo';
